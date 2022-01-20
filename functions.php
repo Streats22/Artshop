@@ -16,6 +16,7 @@ function stedelijkProject_init_theme() {
         )
     );
 }
+
 add_action( 'init', 'stedelijkProject_init_theme' );
 
 ?>
