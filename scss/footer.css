@@ -1,0 +1,120 @@
+@import url("http://fonts.cdnfonts.com/css/creato-display?styles=96722,96723,96724,96725,96718,96719,96720,96721,96714,96715,96716,96717,96712,96713");
+.footer_layout {
+  font-family: 'Creato Display', sans-serif;
+  width: 95%;
+  left: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white; }
+  .footer_layout li, .footer_layout ul, .footer_layout :link {
+    padding: 15px 20px 10px;
+    color: black;
+    font-size: 15px;
+    list-style-type: none;
+    text-decoration: none; }
+    .footer_layout li :visited, .footer_layout li :active, .footer_layout li :hover, .footer_layout ul :visited, .footer_layout ul :active, .footer_layout ul :hover, .footer_layout :link :visited, .footer_layout :link :active, .footer_layout :link :hover {
+      list-style-type: none;
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+      border-bottom: 3px solid black;
+      /* #menu-footer{
+         font-family: 'Creato Display', sans-serif;
+         color: white;
+         size: 40px;*/ }
+
+.logo_SVG {
+  color: black;
+  width: 200px;
+  height: 250px; }
+
+#Footer_1 {
+  display: block;
+  padding: 15px;
+  text-align: center; }
+
+#Footer_2 {
+  display: block;
+  padding: 15px;
+  text-align: center; }
+
+#Footer_3 {
+  display: block;
+  padding: 15px;
+  text-align: center; }
+
+#Footer_4 {
+  display: block;
+  padding: 15px;
+  text-align: center; }
+
+#Footer_5 {
+  display: block;
+  padding: 15px;
+  text-align: center; }
+
+#Footer_6 {
+  display: block;
+  padding: 15px;
+  text-align: center; }
+
+.logo_footer {
+  height: 200px;
+  width: auto;
+  align-items: center;
+  margin: 50px; }
+
+.twitter_footer {
+  height: 30px;
+  padding: 5px; }
+
+.facebook_footer {
+  height: 30px;
+  padding: 5px; }
+
+.youtube_footer {
+  height: 30px;
+  padding: 5px; }
+
+.linkedin_footer {
+  height: 30px;
+  padding: 5px; }
+
+#socials_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.socials_1 {
+  display: block;
+  margin-top: 30px; }
+
+.socials_2 {
+  display: block;
+  margin-top: 10px; }
+
+.ftr_btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  padding: 10px; }
+
+.ftr_btn:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 10px; }
+
+.nieuwsbrief {
+  display: flex;
+  flex-direction: column; }
+
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=footer.css.map */

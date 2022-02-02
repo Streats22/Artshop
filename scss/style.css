@@ -1,6 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/creato-display?styles=96722,96723,96724,96725,96718,96719,96720,96721,96714,96715,96716,96717,96712,96713");
 @import url("http://fonts.cdnfonts.com/css/creato-display?styles=96722,96723,96724,96725,96718,96719,96720,96721,96714,96715,96716,96717,96712,96713");
-@import url("http://fonts.cdnfonts.com/css/creato-display?styles=96722,96723,96724,96725,96718,96719,96720,96721,96714,96715,96716,96717,96712,96713");
 @import url("http://fonts.cdnfonts.com/css/creato-display");
 #menu-hoofdmenu {
   font-family: 'Creato Display', sans-serif;
@@ -24,25 +23,6 @@
     font-size: 25px;
     border-bottom: 5px solid white; }
 
-@media only screen and (max-width: 1150px) {
-  body #menu-hoofdmenu {
-    font-family: 'Creato Display', sans-serif;
-    display: flex;
-    color: black;
-    font-size: 20px;
-    margin-left: -4vw;
-    justify-content: space-between; }
-    body #menu-hoofdmenu li, body #menu-hoofdmenu ul, body #menu-hoofdmenu :link {
-      list-style-type: none;
-      text-decoration: none;
-      padding: 5px 5px 5px;
-      color: black;
-      font-size: 20px;
-      display: block; } }
-@media only screen and (max-width: 785px) {
-  #menu-hoofdmenu {
-    font-family: 'Creato Display', sans-serif;
-    margin-left: -6vw; } }
 .footer_layout {
   font-family: 'Creato Display', sans-serif;
   width: 95%;
@@ -160,43 +140,6 @@
   flex-direction: column;
   width: 150px;
   margin-top: 20px; }
-
-@media only screen and (max-width: 1150px) {
-  .footer_layout {
-    display: block; }
-    .footer_layout .sponsor {
-      display: flex;
-      margin-left: 42%; } }
-@media only screen and (max-width: 900px) {
-  .sponsor {
-    display: flex;
-    margin-left: 42%; } }
-@media only screen and (max-width: 500px) {
-  .sponsor {
-    margin-left: 30%; } }
-.main-container {
-  font-family: 'Creato Display', sans-serif;
-  color: white;
-  font-size: 50px;
-  width: 99.5vw;
-  position: relative;
-  margin-left: -50vw;
-  left: 50%; }
-  .main-container li, .main-container ul, .main-container :link {
-    background-color: black;
-    list-style-type: none;
-    text-decoration: none;
-    padding: 15px 20px 10px;
-    color: white;
-    font-size: 25px;
-    display: block; }
-  .main-container li {
-    border-bottom: white solid 2px; }
-  .main-container :visited, .main-container :active, .main-container :hover {
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-    font-size: 25px; }
 
 body:before {
   white-space: pre;

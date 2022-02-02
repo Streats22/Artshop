@@ -1,0 +1,40 @@
+
+@import url('http://fonts.cdnfonts.com/css/creato-display?styles=96722,96723,96724,96725,96718,96719,96720,96721,96714,96715,96716,96717,96712,96713');
+
+
+.main-container {
+  font-family: 'Creato Display', sans-serif;
+  color: white;
+  font-size: 50px;
+  width: 99.5vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+
+
+
+
+  li, ul, :link {
+    background-color: black ;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px 20px 10px;
+    color: white;
+    font-size: 25px;
+    display: block;
+
+
+  }
+  li{
+    border-bottom: white solid 2px;
+  }
+
+  :visited, :active, :hover {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+
+}
+

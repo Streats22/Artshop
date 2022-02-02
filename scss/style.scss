@@ -1,0 +1,14 @@
+@import "navbar";
+@import "footer";
+@import "homepage";
+@import url("http://fonts.cdnfonts.com/css/creato-display");
+body:before {
+  white-space: pre;
+  font-family: monospace;
+
+
+  #menu-hoofdmenu li {
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

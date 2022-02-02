@@ -12,10 +12,12 @@ function stedelijkProject_init_theme() {
         array(
             'header-menu' => __( 'Header Menu' ),
             'extra-menu' => __( 'Extra Menu' ),
-            'footer-menu'=> __('Footer menu')
+            'footer-menu'=> __('Footer menu'),
+            'home-menu'=> __('Home menu')
         )
     );
 }
+
 add_action( 'init', 'stedelijkProject_init_theme' );
 
 ?>

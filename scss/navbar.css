@@ -1,0 +1,24 @@
+@import url("http://fonts.cdnfonts.com/css/creato-display?styles=96722,96723,96724,96725,96718,96719,96720,96721,96714,96715,96716,96717,96712,96713");
+#menu-hoofdmenu {
+  font-family: 'Creato Display', sans-serif;
+  display: flex;
+  color: black;
+  size: 40px;
+  width: 95%;
+  justify-content: space-between; }
+  #menu-hoofdmenu li, #menu-hoofdmenu ul, #menu-hoofdmenu :link {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px 20px 10px;
+    color: black;
+    font-size: 25px;
+    display: block;
+    border-bottom: 5px solid black; }
+  #menu-hoofdmenu :visited, #menu-hoofdmenu :active, #menu-hoofdmenu :hover {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border-bottom: 5px solid white; }
+
+/*# sourceMappingURL=navbar.css.map */
